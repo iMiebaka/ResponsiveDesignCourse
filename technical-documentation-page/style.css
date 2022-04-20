@@ -3,6 +3,7 @@ body {
   font-family: Roboto;
   position: relative;
 }
+
 #navbar {
   width: 100%;
   display: flex;
