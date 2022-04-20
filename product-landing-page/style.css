@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+body {
+  font-family: Roboto;
+  margin: 1rem 3rem;
+}
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#header-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 30rem;
+}
+
+#nav-link {
+  display: flex;
+  gap: 1rem;
+}
+#nav-link,
+a {
+  text-decoration: none;
+}
+.call-to-action {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+}
+#email {
+  box-shadow: 1px red;
+  padding: 7px;
+}
+#submit {
+  background-color: #0079af;
+  padding: 8px;
+  color: white;
+  border-radius: 3px;
+  border: none;
+}
+#description {
+  max-width: 30rem;
+}
+main {
+  margin-top: 3rem;
+}
+
+#cover-image {
+  width: 200px;
+}
+
+@media (max-width: 720px){
+  .call-to-action {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #video{
+    width: 100%
+  }
+  #form{
+    display: flex;
+    gap: 5px;
+  }
+  #email{
+    width: 100%;
+  }
+}
