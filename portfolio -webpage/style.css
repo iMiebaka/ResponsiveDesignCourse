@@ -22,6 +22,11 @@ main {
 }
 #nav-link {
   text-decoration: none;
+  color: #77ceff;
+}
+#nav-link:hover {
+  color: #346987;
+font-weight: bold;
 }
 section {
   margin: 5rem 5rem;
