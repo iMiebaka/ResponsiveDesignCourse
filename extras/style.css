@@ -1,0 +1,12 @@
+.div1 {
+  margin: 0 auto;
+  margin-top: 20rem;
+  width: max-content;
+  text-align: center;
+  transition: transform .5s ease-out .1s, border-bottom 1s ease .5s;
+}
+
+.div1:hover {
+    transform: scale(3);
+    border-bottom: 1px solid black;
+}
