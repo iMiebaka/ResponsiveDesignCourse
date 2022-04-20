@@ -26,7 +26,7 @@ main {
 }
 #nav-link:hover {
   color: #346987;
-font-weight: bold;
+  font-weight: bold;
 }
 section {
   margin: 5rem 5rem;
@@ -75,20 +75,20 @@ section {
   width: 20rem;
 }
 
-#socials{
+#socials {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-bottom: 0;
 }
-.socials{
+.socials {
   display: flex;
   flex-direction: row;
 }
-.socials a{
-margin-left: 2rem;
+.socials a {
+  margin-left: 2rem;
 }
- svg{
+svg {
   width: 2rem;
 }
 
@@ -112,8 +112,7 @@ margin-left: 2rem;
   .project {
     margin-top: 2rem;
   }
-  svg{
+  svg {
     width: 1rem;
   }
-  
 }
